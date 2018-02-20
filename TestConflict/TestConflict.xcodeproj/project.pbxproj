@@ -14,6 +14,8 @@
 		04D7AD05203CAD990001683F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D7AD03203CAD990001683F /* LaunchScreen.storyboard */; };
 		04D7AD0E203CADFA0001683F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7AD0C203CADFA0001683F /* TableViewCell.swift */; };
 		04D7AD0F203CADFA0001683F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D7AD0D203CADFA0001683F /* TableViewCell.xib */; };
+		04D7AD12203CAE450001683F /* TableViewCellC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7AD10203CAE450001683F /* TableViewCellC.swift */; };
+		04D7AD13203CAE450001683F /* TableViewCellC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D7AD11203CAE450001683F /* TableViewCellC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		04D7AD06203CAD990001683F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D7AD0C203CADFA0001683F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		04D7AD0D203CADFA0001683F /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		04D7AD10203CAE450001683F /* TableViewCellC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellC.swift; sourceTree = "<group>"; };
+		04D7AD11203CAE450001683F /* TableViewCellC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			children = (
 				04D7AD0C203CADFA0001683F /* TableViewCell.swift */,
 				04D7AD0D203CADFA0001683F /* TableViewCell.xib */,
+				04D7AD10203CAE450001683F /* TableViewCellC.swift */,
+				04D7AD11203CAE450001683F /* TableViewCellC.xib */,
 				04D7ACF9203CAD990001683F /* TestConflict */,
 				04D7ACF8203CAD990001683F /* Products */,
 			);
@@ -129,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D7AD13203CAE450001683F /* TableViewCellC.xib in Resources */,
 				04D7AD05203CAD990001683F /* LaunchScreen.storyboard in Resources */,
 				04D7AD0F203CADFA0001683F /* TableViewCell.xib in Resources */,
 				04D7AD02203CAD990001683F /* Assets.xcassets in Resources */,
@@ -144,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D7AD0E203CADFA0001683F /* TableViewCell.swift in Sources */,
+				04D7AD12203CAE450001683F /* TableViewCellC.swift in Sources */,
 				04D7ACFD203CAD990001683F /* ViewController.swift in Sources */,
 				04D7ACFB203CAD990001683F /* AppDelegate.swift in Sources */,
 			);
